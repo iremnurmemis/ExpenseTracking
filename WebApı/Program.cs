@@ -1,8 +1,17 @@
+using Business;
+using DataAccess;
+using DataAccess.Concrete;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
+
+builder.Services.AddDbContext<ExpenseTrackingContext>();
+
+builder.Services.AddScoped<ICategoryDal,EfCategorydal>();
+builder.Services.AddScoped<ICategoryService,CategoryManager>(); 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
