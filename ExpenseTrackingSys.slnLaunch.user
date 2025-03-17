@@ -1,0 +1,11 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "DataAccess\\DataAccess.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
