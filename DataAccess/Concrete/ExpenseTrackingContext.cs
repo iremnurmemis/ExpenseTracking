@@ -12,6 +12,7 @@ namespace DataAccess.Concrete
                 new MySqlServerVersion(new Version(8, 0, 31)) // MySQL sürümüne dikkat et
             );
         }
+        //iremmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
 
         public DbSet<Category> Categories { get; set; }
 
