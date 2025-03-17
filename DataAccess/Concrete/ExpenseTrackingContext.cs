@@ -1,4 +1,5 @@
 ﻿using Entities;
+using Entities.Concrete;
 using Microsoft.EntityFrameworkCore;
 
 namespace DataAccess.Concrete
@@ -15,6 +16,8 @@ namespace DataAccess.Concrete
         //iremmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
 
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Expense> Expenses { get; set; }
+        public DbSet<Revenue> Revenues { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

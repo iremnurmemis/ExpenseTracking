@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\mehme\\source\\repos\\ExpenseTracking\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7F64500E-988E-482A-BDB8-91A62AAEDEF0}|Business\\Business.csproj|c:\\users\\mehme\\source\\repos\\expensetracking\\business\\concrete\\expensemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F64500E-988E-482A-BDB8-91A62AAEDEF0}|Business\\Business.csproj|solutionrelative:business\\concrete\\expensemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F64500E-988E-482A-BDB8-91A62AAEDEF0}|Business\\Business.csproj|c:\\users\\mehme\\source\\repos\\expensetracking\\business\\concrete\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F64500E-988E-482A-BDB8-91A62AAEDEF0}|Business\\Business.csproj|solutionrelative:business\\concrete\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F64500E-988E-482A-BDB8-91A62AAEDEF0}|Business\\Business.csproj|c:\\users\\mehme\\source\\repos\\expensetracking\\business\\abstract\\iexpenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F64500E-988E-482A-BDB8-91A62AAEDEF0}|Business\\Business.csproj|solutionrelative:business\\abstract\\iexpenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F64500E-988E-482A-BDB8-91A62AAEDEF0}|Business\\Business.csproj|c:\\users\\mehme\\source\\repos\\expensetracking\\business\\abstract\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F64500E-988E-482A-BDB8-91A62AAEDEF0}|Business\\Business.csproj|solutionrelative:business\\abstract\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5B942C7F-12FC-475A-AE60-2887527D8E7E}|DataAccess\\DataAccess.csproj|c:\\users\\mehme\\source\\repos\\expensetracking\\dataaccess\\concrete\\expensetrackingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B942C7F-12FC-475A-AE60-2887527D8E7E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\expensetrackingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B942C7F-12FC-475A-AE60-2887527D8E7E}|DataAccess\\DataAccess.csproj|c:\\users\\mehme\\source\\repos\\expensetracking\\dataaccess\\migrations\\20250313120019_mig1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B942C7F-12FC-475A-AE60-2887527D8E7E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20250313120019_mig1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B942C7F-12FC-475A-AE60-2887527D8E7E}|DataAccess\\DataAccess.csproj|c:\\users\\mehme\\source\\repos\\expensetracking\\dataaccess\\concrete\\efcategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B942C7F-12FC-475A-AE60-2887527D8E7E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\efcategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B942C7F-12FC-475A-AE60-2887527D8E7E}|DataAccess\\DataAccess.csproj|c:\\users\\mehme\\source\\repos\\expensetracking\\dataaccess\\concrete\\efexpensedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B942C7F-12FC-475A-AE60-2887527D8E7E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\efexpensedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC3F9CE1-AE9F-46CD-A100-0737B8B1B6C4}|Entities\\Entities.csproj|c:\\users\\mehme\\source\\repos\\expensetracking\\entities\\concrete\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC3F9CE1-AE9F-46CD-A100-0737B8B1B6C4}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,26 +55,105 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "20250313120019_mig1.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\source\\repos\\ExpenseTracking\\DataAccess\\Migrations\\20250313120019_mig1.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20250313120019_mig1.cs",
-              "ToolTip": "C:\\Users\\mehme\\source\\repos\\ExpenseTracking\\DataAccess\\Migrations\\20250313120019_mig1.cs",
-              "RelativeToolTip": "DataAccess\\Migrations\\20250313120019_mig1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "CategoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\mehme\\source\\repos\\ExpenseTracking\\Business\\Concrete\\CategoryManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\CategoryManager.cs",
+              "ToolTip": "C:\\Users\\mehme\\source\\repos\\ExpenseTracking\\Business\\Concrete\\CategoryManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\CategoryManager.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T12:00:19.703Z"
+              "WhenOpened": "2025-03-17T10:21:34.091Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ExpenseManager.cs",
+              "DocumentMoniker": "C:\\Users\\mehme\\source\\repos\\ExpenseTracking\\Business\\Concrete\\ExpenseManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\ExpenseManager.cs",
+              "ToolTip": "C:\\Users\\mehme\\source\\repos\\ExpenseTracking\\Business\\Concrete\\ExpenseManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\ExpenseManager.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAUwDMAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T10:21:22.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IExpenseService.cs",
+              "DocumentMoniker": "C:\\Users\\mehme\\source\\repos\\ExpenseTracking\\Business\\Abstract\\IExpenseService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\IExpenseService.cs",
+              "ToolTip": "C:\\Users\\mehme\\source\\repos\\ExpenseTracking\\Business\\Abstract\\IExpenseService.cs",
+              "RelativeToolTip": "Business\\Abstract\\IExpenseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T10:18:22.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\mehme\\source\\repos\\ExpenseTracking\\Business\\Abstract\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\mehme\\source\\repos\\ExpenseTracking\\Business\\Abstract\\ICategoryService.cs",
+              "RelativeToolTip": "Business\\Abstract\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T10:18:06.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ExpenseTrackingContext.cs",
               "DocumentMoniker": "C:\\Users\\mehme\\source\\repos\\ExpenseTracking\\DataAccess\\Concrete\\ExpenseTrackingContext.cs",
               "RelativeDocumentMoniker": "DataAccess\\Concrete\\ExpenseTrackingContext.cs",
               "ToolTip": "C:\\Users\\mehme\\source\\repos\\ExpenseTracking\\DataAccess\\Concrete\\ExpenseTrackingContext.cs",
               "RelativeToolTip": "DataAccess\\Concrete\\ExpenseTrackingContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAxwBEAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T10:24:38.635Z",
+              "WhenOpened": "2025-03-17T10:17:15.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EfCategorydal.cs",
+              "DocumentMoniker": "C:\\Users\\mehme\\source\\repos\\ExpenseTracking\\DataAccess\\Concrete\\EfCategorydal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EfCategorydal.cs",
+              "ToolTip": "C:\\Users\\mehme\\source\\repos\\ExpenseTracking\\DataAccess\\Concrete\\EfCategorydal.cs",
+              "RelativeToolTip": "DataAccess\\Concrete\\EfCategorydal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T10:16:47.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EfExpenseDal.cs",
+              "DocumentMoniker": "C:\\Users\\mehme\\source\\repos\\ExpenseTracking\\DataAccess\\Concrete\\EfExpenseDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EfExpenseDal.cs",
+              "ToolTip": "C:\\Users\\mehme\\source\\repos\\ExpenseTracking\\DataAccess\\Concrete\\EfExpenseDal.cs",
+              "RelativeToolTip": "DataAccess\\Concrete\\EfExpenseDal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T10:16:45.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Expense.cs",
+              "DocumentMoniker": "C:\\Users\\mehme\\source\\repos\\ExpenseTracking\\Entities\\Concrete\\Expense.cs",
+              "RelativeDocumentMoniker": "Entities\\Concrete\\Expense.cs",
+              "ToolTip": "C:\\Users\\mehme\\source\\repos\\ExpenseTracking\\Entities\\Concrete\\Expense.cs",
+              "RelativeToolTip": "Entities\\Concrete\\Expense.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T10:09:24.588Z",
               "EditorCaption": ""
             }
           ]
