@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mehme\\Source\\Repos\\ExpenseTracking\\Business\\Business.csproj": {}
+    "C:\\Users\\ılayda\\source\\repos\\ExpenseTrackingSys\\Business\\Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mehme\\Source\\Repos\\ExpenseTracking\\Business\\Business.csproj": {
+    "C:\\Users\\ılayda\\source\\repos\\ExpenseTrackingSys\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mehme\\Source\\Repos\\ExpenseTracking\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\ılayda\\source\\repos\\ExpenseTrackingSys\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\mehme\\Source\\Repos\\ExpenseTracking\\Business\\Business.csproj",
-        "packagesPath": "C:\\Users\\mehme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mehme\\Source\\Repos\\ExpenseTracking\\Business\\obj\\",
+        "projectPath": "C:\\Users\\ılayda\\source\\repos\\ExpenseTrackingSys\\Business\\Business.csproj",
+        "packagesPath": "C:\\Users\\ılayda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ılayda\\source\\repos\\ExpenseTrackingSys\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mehme\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ılayda\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,20 +26,23 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\ılayda\\Desktop\\identiy": {},
+          "C:\\Users\\ılayda\\Desktop\\packet": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\mehme\\Source\\Repos\\ExpenseTracking\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\mehme\\Source\\Repos\\ExpenseTracking\\Core\\Core.csproj"
+              "C:\\Users\\ılayda\\source\\repos\\ExpenseTrackingSys\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\ılayda\\source\\repos\\ExpenseTrackingSys\\Core\\Core.csproj"
               },
-              "C:\\Users\\mehme\\Source\\Repos\\ExpenseTracking\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\mehme\\Source\\Repos\\ExpenseTracking\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\ılayda\\source\\repos\\ExpenseTrackingSys\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\ılayda\\source\\repos\\ExpenseTrackingSys\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\mehme\\Source\\Repos\\ExpenseTracking\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\mehme\\Source\\Repos\\ExpenseTracking\\Entities\\Entities.csproj"
+              "C:\\Users\\ılayda\\source\\repos\\ExpenseTrackingSys\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\ılayda\\source\\repos\\ExpenseTrackingSys\\Entities\\Entities.csproj"
               }
             }
           }
@@ -53,12 +56,29 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -75,24 +95,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mehme\\Source\\Repos\\ExpenseTracking\\Core\\Core.csproj": {
+    "C:\\Users\\ılayda\\source\\repos\\ExpenseTrackingSys\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mehme\\Source\\Repos\\ExpenseTracking\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\ılayda\\source\\repos\\ExpenseTrackingSys\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\mehme\\Source\\Repos\\ExpenseTracking\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\mehme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mehme\\Source\\Repos\\ExpenseTracking\\Core\\obj\\",
+        "projectPath": "C:\\Users\\ılayda\\source\\repos\\ExpenseTrackingSys\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\ılayda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ılayda\\source\\repos\\ExpenseTrackingSys\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mehme\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ılayda\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -101,6 +121,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\ılayda\\Desktop\\identiy": {},
+          "C:\\Users\\ılayda\\Desktop\\packet": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -118,8 +141,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -170,24 +192,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mehme\\Source\\Repos\\ExpenseTracking\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\ılayda\\source\\repos\\ExpenseTrackingSys\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mehme\\Source\\Repos\\ExpenseTracking\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\ılayda\\source\\repos\\ExpenseTrackingSys\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\mehme\\Source\\Repos\\ExpenseTracking\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\mehme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mehme\\Source\\Repos\\ExpenseTracking\\DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\ılayda\\source\\repos\\ExpenseTrackingSys\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\ılayda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ılayda\\source\\repos\\ExpenseTrackingSys\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mehme\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ılayda\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -196,17 +218,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\ılayda\\Desktop\\identiy": {},
+          "C:\\Users\\ılayda\\Desktop\\packet": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\mehme\\Source\\Repos\\ExpenseTracking\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\mehme\\Source\\Repos\\ExpenseTracking\\Core\\Core.csproj"
+              "C:\\Users\\ılayda\\source\\repos\\ExpenseTrackingSys\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\ılayda\\source\\repos\\ExpenseTrackingSys\\Core\\Core.csproj"
               },
-              "C:\\Users\\mehme\\Source\\Repos\\ExpenseTracking\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\mehme\\Source\\Repos\\ExpenseTracking\\Entities\\Entities.csproj"
+              "C:\\Users\\ılayda\\source\\repos\\ExpenseTrackingSys\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\ılayda\\source\\repos\\ExpenseTrackingSys\\Entities\\Entities.csproj"
               }
             }
           }
@@ -220,8 +245,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -260,24 +284,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mehme\\Source\\Repos\\ExpenseTracking\\Entities\\Entities.csproj": {
+    "C:\\Users\\ılayda\\source\\repos\\ExpenseTrackingSys\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mehme\\Source\\Repos\\ExpenseTracking\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\ılayda\\source\\repos\\ExpenseTrackingSys\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\mehme\\Source\\Repos\\ExpenseTracking\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\mehme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mehme\\Source\\Repos\\ExpenseTracking\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\ılayda\\source\\repos\\ExpenseTrackingSys\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\ılayda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ılayda\\source\\repos\\ExpenseTrackingSys\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mehme\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ılayda\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -286,14 +310,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\ılayda\\Desktop\\identiy": {},
+          "C:\\Users\\ılayda\\Desktop\\packet": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\mehme\\Source\\Repos\\ExpenseTracking\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\mehme\\Source\\Repos\\ExpenseTracking\\Core\\Core.csproj"
+              "C:\\Users\\ılayda\\source\\repos\\ExpenseTrackingSys\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\ılayda\\source\\repos\\ExpenseTrackingSys\\Core\\Core.csproj"
               }
             }
           }
@@ -307,8 +334,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -329,7 +355,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

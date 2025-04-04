@@ -1,14 +1,7 @@
 ﻿using Business.Abstract;
 using Core.Interceptors.Utilities.Results;
-using DataAccess;
 using DataAccess.Abstract;
-using Entities;
 using Entities.Concrete;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Business.Concrete
 {
@@ -50,6 +43,28 @@ namespace Business.Concrete
         {
             var value = _expenseDal.Get(x => x.Id == id);
             return new SuccessDataResult<Expense>(value, "Listelendi");
+        }
+
+        public IDataResult<List<Expense>> GetUserExpenses(int userId)
+        {
+            return new SuccessDataResult<List<Expense>>(_expenseDal.GetAll(e=>e.UserId==userId), "Kullanıcının harcamaları listelendi");
+        }
+
+        public IDataResult<List<Expense>> GetExpensesByCategory(int categoryId)
+        {
+            return new SuccessDataResult<List<Expense>>(_expenseDal.GetAll(e => e.CategoryId==categoryId), "Kategoriye ait harcamalar listelendi");
+        }
+
+        public IDataResult<List<Expense>> GetExpensesByUserAndCategory(int userId, int categoryId)
+        {
+            return new SuccessDataResult<List<Expense>>(_expenseDal.GetAll(e => e.UserId == userId && e.CategoryId==categoryId) , "Kullanıcının harcamaları listelendi");
+
+        }
+
+        public IDataResult<double> GetTotalExpense(int userId)
+        {
+            var totalExpense=_expenseDal.GetAll(x=>x.UserId==userId).Sum(e=>e.ExpenseAmount);
+            return new SuccessDataResult<double>(totalExpense, "Toplam harcama hesaplandı");
         }
     }
 }

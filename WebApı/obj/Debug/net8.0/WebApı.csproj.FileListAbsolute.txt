@@ -184,3 +184,6 @@ C:\Users\mehme\Source\Repos\ExpenseTracking\WebApı\obj\Debug\net8.0\staticwebas
 C:\Users\mehme\Source\Repos\ExpenseTracking\WebApı\obj\Debug\net8.0\WebApı.csproj.Up2Date
 C:\Users\mehme\Source\Repos\ExpenseTracking\WebApı\obj\Debug\net8.0\WebApı.genruntimeconfig.cache
 C:\Users\mehme\Source\Repos\ExpenseTracking\WebApı\obj\Debug\net8.0\ref\WebApı.dll
+C:\Users\ılayda\source\repos\ExpenseTrackingSys\WebApı\bin\Debug\net8.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\ılayda\source\repos\ExpenseTrackingSys\WebApı\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\ılayda\source\repos\ExpenseTrackingSys\WebApı\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

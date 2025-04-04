@@ -6,7 +6,7 @@ using System.Linq.Expressions;
 
 namespace DataAccess
 {
-    public class EfCategorydal : EfEntityRepositoryBase<Category, ExpenseTrackingContext>, ICategoryDal
+    public class EfCategoryDal : EfEntityRepositoryBase<Category, ExpenseTrackingContext>, ICategoryDal
     {
       
     }
